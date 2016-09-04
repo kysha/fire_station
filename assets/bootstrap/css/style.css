@@ -1,0 +1,141 @@
+/*#ex3::-webkit-scrollbar{
+width:16px;
+background-color:#cccccc;
+} 
+#accordion::-webkit-scrollbar-thumb{
+background-color:#B03C3F;
+border-radius:10px;
+}
+#accordion::-webkit-scrollbar-thumb:hover{
+background-color:#BF4649;
+border:1px solid #333333;
+}
+#accordion::-webkit-scrollbar-thumb:active{
+background-color:#A6393D;
+border:1px solid #333333;
+} */
+/*.has-error .input-group-addon {
+    background-color: green;
+}
+.has-error .input-group-btn .btn,
+.has-error .alertButton{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+}*/
+.error-message{
+  font-size:12px;
+  padding: 0px;
+  margin: 0px;
+}
+#alertElement{
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+.alertButton{
+  margin-left:2px;
+  min-width:90px;  
+}
+#alertElement button{
+  padding: 5px;
+}
+html{
+  height: 100%;
+}
+p{
+  margin: 0px;
+}
+#googleMap
+{
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    top:50px
+}
+.menu {
+/*  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat right top;*/
+  background-color: #222;
+  right: -350px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 350px;
+/*  max-height: 87%; */
+/*  overflow-y: auto; */
+}
+
+/* Basic styling */
+
+/*.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}*/
+
+/*.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}*/
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.panel-inverse{
+  list-style: none;
+  color: #080808;
+  background-color: #080808;
+  border-color: #080808;  
+}
+.panel-inverse a{
+  color: #337ab7;
+  text-decoration: none;
+}
+.panel-inverse > .panel-heading {
+  color: #333;
+  background-color: #222;
+  border-color: #ddd;
+}
+.panel-inverse > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.panel-inverse > .panel-heading .badge {
+  color: #080808;
+  background-color: #080808;
+}
+.panel-inverse > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #080808;
+}
+
+
+
+/*.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}*/

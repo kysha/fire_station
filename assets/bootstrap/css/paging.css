@@ -1,0 +1,63 @@
+/*abouts*/
+#icon-red{
+    color: #ED1C24;
+}
+.bg-gray{
+    background: #696969;
+    color: #fff;
+}
+.bg-margin{
+    margin: 0px auto 0;
+}
+.container_padding{
+    padding: 20px 0px 20px 0px;
+}
+.hr-style{
+    border-color: #fff;
+    max-width: 50px;
+    border-width: 3px;
+}
+.hr-red{
+    border-color: #ED1C24;
+}
+.hr-white{
+    border-color: #fff;
+}
+.crew{
+    display:inline-block;
+    margin-right:20px;
+}
+
+
+
+/* Pagination style */
+.paging{
+    text-align: center;
+    margin: 0 auto;
+}
+.paging a,strong{
+    margin:0;padding:0;
+    display: inline;
+	padding: 6px 10px 6px 10px;
+	border: 1px solid #ddd;
+	margin-right: -1px;
+	font: 15px/20px Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+}
+.paging strong{
+    background: #9c9c9c;
+}
+/*filter*/
+.box-filter{
+    border-color: #DBDEE0;
+    border-width: 1px;
+    border-style: solid;
+    background: #fff;
+}
+
+/*error*/
+.error{
+    text-align: center;
+    color: red;
+}
+
